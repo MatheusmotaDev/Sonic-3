@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url('sonic-3-filme-e1724765794391.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Garante que o body ocupe pelo menos 100% da altura da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinha o conteúdo no topo */
+    align-items: center; /* Centraliza horizontalmente */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.saudacao {
+    background-color: rgb(255, 6, 6);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 100%; 
+    max-width: 900px; 
+}
+
+.timeline {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 900px; 
+}
+
+.timeline-item {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.timeline-item img {
+    margin-right: 15px;
+}
